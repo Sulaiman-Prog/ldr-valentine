@@ -11,21 +11,21 @@ function App() {
       id: 1,
       label: "A Note on Fate",
       title: "Written in the Stars",
-      content: "I often wonder how, in a world so big, our paths managed to cross through a simple screen. It wasn't luck; it was fate. Even though we are miles apart, I feel like I've known your soul forever. You are the best thing that ever happened to my digital world.",
+      content: "I often wonder how, in a world so big, our paths managed to cross through a simple screen. It wasn't luck; it was fate. Even though we are miles apart, I feel like I've known you forever. You are the best thing that has happened to me.",
       type: "text"
     },
     {
       id: 2,
       label: "A Note on Your Voice",
       title: "My Favorite Sound",
-      content: "Whenever I hear your voice, the thousands of miles between us seem to vanish. I close my eyes and imagine you're right here next to me, whispering those same words. One day, I won't have to imagine anymore. I'll just have to reach out and touch you.",
+      content: "I love the sound of your voice. I always imagine you right here next to me, I can't wait to be with you.",
       type: "text"
     },
     {
       id: 3,
       label: "A Note on Waiting",
       title: "Worth Every Second",
-      content: "People ask me why I wait for someone I haven't met. The answer is simple: because 'someone' is you. I would wait a thousand years and travel a million miles just for one minute in your presence. The distance is temporary, but my love for you is permanent.",
+      content: "People ask me why I wait for someone I haven't met. The answer is simple: because 'someone' is you. The distance is temporary, but my love for you is permanent. You are worth the wait.",
       type: "text"
     },
     {
@@ -46,7 +46,7 @@ function App() {
       id: 6,
       label: "A Note for Today",
       title: "One Simple Question",
-      content: "Since I can't be there to give you flowers or a hug in person today, I want to start with a promise... and a question.",
+      content: "Just to ask you again cause why not...since I can't be there to give you flowers or a hug in person today, I want to start with a promise... and a question.",
       type: "proposal"
     }
   ];
