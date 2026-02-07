@@ -25,21 +25,21 @@ function App() {
       id: 3,
       label: "A Note on Waiting",
       title: "Worth Every Second",
-      content: "People ask me why I wait for someone I haven't met. The answer is simple: because 'someone' is you. The distance is temporary, but my love for you is permanent. You are worth the wait.",
+      content: "If you asked why I am willing to wait for you. The answer is very simple: because it is you. The distance only makes me want to be more intentional in my actions. You are worth the wait, you are worth it all.",
       type: "text"
     },
     {
       id: 4,
       label: "A Note on Our Connection",
       title: "More Than Just Words",
-      content: "We haven't shared a meal or a walk in the park yet, but we've shared our dreams, our fears, and our hearts. You know me better than people I see every day. That is the magic of us—we built a foundation on pure connection, and I cherish it every day.",
+      content: "We haven't shared a meal or a walk in the park yet, but we've shared our dreams, our fears, and our hearts. You know me so well. We have formed a connection stronger than anything.",
       type: "text"
     },
     {
       id: 5,
       label: "A Note on the Future",
       title: "The Best is Yet to Come",
-      content: "I live for the day I don't have to say 'goodnight' to you over the phone. I live for the day we take our first photo together. Our future is so bright, and I'm so glad I'm walking towards it with you, even if we're taking those steps in different cities for now.",
+      content: "I live for the day we take our first photo together. I want a future with you and I'm glad we're putting in a lot of effort even if we're in different countries for now.",
       type: "text"
     },
     {
