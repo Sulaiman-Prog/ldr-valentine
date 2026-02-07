@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Quicksand:wght@400;600&family=Indie+Flower&display=swap');
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  background-color: #fcfaf2;
+  background-image: radial-gradient(#e5e5f7 0.5px, transparent 0.5px), radial-gradient(#e5e5f7 0.5px, #fcfaf2 0.5px);
+  background-size: 20px 20px;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  color: #4a4a4a;
+}
+
+.ldr-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  color: #b33939;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #7f8c8d;
+  margin-bottom: 50px;
+}
+
+.envelope-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.envelope-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  box-shadow: 5px 5px 0px #b33939; /* Pop-art shadow */
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.envelope-card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 8px 8px 0px #b33939;
+}
+
+.envelope-icon { font-size: 3.5rem; margin-bottom: 10px; }
+.envelope-label { font-weight: 600; color: #333; }
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(44, 62, 80, 0.8);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.letter-content {
+  background: #fff;
+  padding: 50px;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 2px;
+  position: relative;
+  box-shadow: 20px 20px 0px rgba(0,0,0,0.1);
+  font-family: 'Indie Flower', cursive;
+}
+
+.letter-title {
+  font-family: 'Dancing Script', cursive;
+  color: #b33939;
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+.text-message p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #2c3e50;
+}
+
+.image-wrapper img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px; right: 15px;
+  border: none; background: none; font-size: 1.5rem; cursor: pointer;
+}
+
+.the-big-ask {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.8rem;
+  color: #b33939;
+  margin-top: 30px;
+}
+
+.yes-btn {
+  background: #b33939;
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 10px;
+}
